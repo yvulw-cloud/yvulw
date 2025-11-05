@@ -242,6 +242,17 @@ export function About() {
               />
             </p>
           </div>
+          {/*학력*/}
+    <div className="max-w-3xl mx-auto space-y-4">
+      <h3 className="text-xl font-semibold">학력</h3>
+      <p className="text-sm text-muted-foreground whitespace-pre-line">
+        2020 용인 서원고등학교 졸업{"\n"}
+        2020 제주대학교 관광개발학과 입학{"\n"}
+        2024 단국대학교 도시계획부동산학부 편입학
+      </p>
+    </div>
+  </div>
+</section>
 
           {/* 경험 카드 (경력/학력/자격증 등) */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
